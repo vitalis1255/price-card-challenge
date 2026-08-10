@@ -1,3 +1,4 @@
+/*TABLET DESIGN. For me, It is necessary to design from desktop design first then later you use media query to design smartphones design*/
 .container-divs{
   width: 600px;/*control for Desktop width*/
   height: 390px;
@@ -102,8 +103,41 @@ button:hover{
   line-height: 15px;
 }
 
-/* Smartphones */
-@media (max-width: 500px) {
+/*CSS runs from top to bottom. Consider orderliness when writing media query*/
+
+/* SMARTPHONES DESIGN */
+/*If you are using min-width:576px, min-width:992px, you should start from min-width:576px, then later min-width:992px.
+IF YOU WANT DESKTOP FIRST, IN THE MEDIA QUERY, USE MAX-WIDTH. BUT IF YOU WANT SMARTPHONES FIRST, IN THE MEDIA QUERY, USE MIN-WIDTH*/
+@media (max-width: 576px) {
+  .container-divs {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .top-div-container{
+    width: 100%;
+    height: auto;
+  }
+
+  .bottom-div-container{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .left-div-container{
+    width: 100%;
+    height: auto;
+  }
+  .right-div-container{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/*DESKTOP DESIGN*/
+@media (max-width: 992px) {
   .container-divs {
     width: 80%;
     height: auto;
