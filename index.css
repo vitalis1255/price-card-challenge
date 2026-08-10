@@ -102,15 +102,18 @@ button:hover{
   font-size: 0.8rem;
   line-height: 15px;
 }
+*, *:before, *:after{
+  box-sizing: inherit;
+}
 
 /*CSS runs from top to bottom. Consider orderliness when writing media query*/
 
 /* SMARTPHONES DESIGN */
 /*If you are using min-width:576px, min-width:992px, you should start from min-width:576px, then later min-width:992px.
 IF YOU WANT DESKTOP FIRST, IN THE MEDIA QUERY, USE MAX-WIDTH. BUT IF YOU WANT SMARTPHONES FIRST, IN THE MEDIA QUERY, USE MIN-WIDTH*/
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   .container-divs {
-    width: 80%;
+    width: 65%;
     height: auto;
     margin: 20px auto;
   }
@@ -137,6 +140,7 @@ IF YOU WANT DESKTOP FIRST, IN THE MEDIA QUERY, USE MAX-WIDTH. BUT IF YOU WANT SM
 
 
 /*DESKTOP DESIGN*/
+/*
 @media (max-width: 992px) {
   .container-divs {
     width: 80%;
@@ -163,3 +167,4 @@ IF YOU WANT DESKTOP FIRST, IN THE MEDIA QUERY, USE MAX-WIDTH. BUT IF YOU WANT SM
     height: auto;
   }
 }
+*/
