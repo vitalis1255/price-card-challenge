@@ -1,5 +1,5 @@
 .container-divs{
-  width: 550px;
+  width: 600px;
   height: 390px;
   margin: 40px auto;
   box-shadow: 3px 3px 3px 3px gray;
@@ -100,4 +100,32 @@ button:hover{
   opacity: 0.8;
   font-size: 0.8rem;
   line-height: 15px;
+}
+
+/* Smartphones */
+@media (max-width: 499px) {
+  .container-divs {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .top-div-container{
+    width: 100%;
+    height: auto;
+  }
+
+  #bottom-div-container{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .left-div-container{
+    width: 100%;
+    height: auto;
+  }
+  #right-div-container{
+    width: 100%;
+    height: auto;
+  }
 }

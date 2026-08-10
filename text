@@ -1,1 +1,5 @@
 What is responsive web design? This is a method for building web pages that look good and work well on all devices.
+WHAT IS DIFFERENCE BETWEEN MOBILE FIRST DESIGN AND DESKTOP FIRST DESIGN? Mobile first design starts by creating a layout for small smartphone screens and scaling up to larger monitors. Desktop first design builds the rich, complex layout for computers first and scales down for smaller mobile displys. The core diff btw the two devices is how the content priority and technical contraints are handled from the start.
+
+MEDIA QUERY:
+window.innerwidth; To know the size of the window laptop. our own window.innerwidth is 716. mobile devices is btw 320-420 pixels wide
