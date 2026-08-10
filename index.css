@@ -105,7 +105,7 @@ button:hover{
 /* Smartphones */
 @media (max-width: 567px) {
   .container-divs {
-    width: 58%;
+    width: 50%;
     height: auto;
     margin: 20px auto;
   }
