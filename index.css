@@ -113,7 +113,7 @@ button:hover{
 IF YOU WANT DESKTOP FIRST, IN THE MEDIA QUERY, USE MAX-WIDTH. BUT IF YOU WANT SMARTPHONES FIRST, IN THE MEDIA QUERY, USE MIN-WIDTH*/
 @media (max-width: 720px) {
   .container-divs {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 20px auto;
   }
